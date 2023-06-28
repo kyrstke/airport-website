@@ -1,6 +1,9 @@
 # assets
 src/public/assets/
 
+# server
+src/server.js
+
 # Logs
 logs
 *.log
