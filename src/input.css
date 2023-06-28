@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.divider-vertical {
+  @apply border border-gray-400 h-4;
+}
+
+.divider-horizontal {
+  @apply container my-5 border border-gray-400 w-full;
+}
+
+.navlink {
+  @apply mx-3 hover:text-sky-700;
+}
+
+.w-6\.5 {
+  width: 1.625rem;
+}
+
+.w-15 {
+  width: 3.75rem;
+}
